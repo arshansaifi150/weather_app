@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #212121;
+}
+.parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    min-height: 20rem;
+    min-width: 16rem;
+    background-color: aqua;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    
+}
+
+#search{
+    border-radius: 9px;
+    border: none;
+    padding: 7px;
+}
+#submit{
+    background-color: white;
+    border: none;
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+    padding-top: 1px;
+    
+
+}
+
+.temp-city-info{
+    text-align: center;
+}
+.weather-icon, #temp{
+    margin-bottom: 4px;
+}
+
+.humidity-breeze{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    
+}
+.humidity ,.breeze-speed{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
