@@ -1,4 +1,4 @@
-const Your_Api = '88ba46bddacc78241d296f686d698336&units=metric';
+const Your_Api = '';
 
 const form = document.querySelector('form')
 
