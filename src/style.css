@@ -59,3 +59,7 @@ body{
     align-items: center;
     gap: 10px;
 }
+
+.weather-icon{
+    margin: 0;
+}
